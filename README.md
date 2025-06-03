@@ -1,3 +1,5 @@
+FOR FRONTEND
+
 🚀 Getting Started with Create React App
 Welcome! 👋
 This project was set up using Create React App, a great way to kickstart your React journey with zero build config headaches.
@@ -49,6 +51,43 @@ Analyzing Bundle Size
 Progressive Web App Guide
 
 Advanced Configuration
+
+
+
+
+
+FOR BACKEND
+# Prime Number API
+
+This is a simple Node.js API that checks if a given number is prime.
+
+## How to Run
+
+1. Install dependencies (from the `backend-prime-api` folder):
+   ```sh
+   npm install
+   ```
+2. Start the server:
+   ```sh
+   node index.js
+   ```
+
+## How to Test
+
+Send a GET request to:
+```
+http://localhost:3000/is-prime?number=7
+```
+Replace `7` with any number you want to check.
+
+### Example Response
+```
+{
+  "number": 7,
+  "isPrime": true
+}
+``` 
+
 
 Deployment Tips
 
